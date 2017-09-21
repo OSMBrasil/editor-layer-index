@@ -1,6 +1,7 @@
-ALL = imagery.geojson imagery.json imagery.xml
+ALL = imagery.geojson imagery.json imagery.xml i18n/en.yaml
 SOURCES = $(shell find sources -type f -name '*.geojson' | LC_ALL="C" sort)
 PYTHON = python
+TX := $(shell which tx)
 
 all: $(ALL)
 
@@ -18,3 +19,20 @@ imagery.json: $(SOURCES)
 
 imagery.geojson: $(SOURCES)
 	@$(PYTHON) scripts/concat_geojson.py $(SOURCES) > imagery.geojson
+
+i18n/en.yaml: $(SOURCES)
+	@$(PYTHON) scripts/extract_i18n.py $(SOURCES) > $@
+
+txpush: i18n/en.yaml
+ifeq (, $(TX))
+	@echo "Transifex not installed"
+else
+	$(TX) push -s
+endif
+
+txpull:
+ifeq (, $(TX))
+	@echo "Transifex not installed"
+else
+	$(TX) pull -a
+endif

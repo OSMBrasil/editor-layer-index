@@ -2,12 +2,13 @@
     "type": "Feature",
     "properties": {
         "id": "OSM_Inspector-Multipolygon",
+        "name": "OSM Inspector: Area",
+        "i18n": true,
         "attribution": {
             "url": "http://tools.geofabrik.de/osmi/",
             "text": "© Geofabrik GmbH, OpenStreetMap contributors, CC-BY-SA",
             "required": true
         },
-        "name": "OSM Inspector: Area",
         "overlay": true,
         "url": "http://tools.geofabrik.de/osmi/tiles/area/{zoom}/{x}/{y}.png",
         "min_zoom": 8,
