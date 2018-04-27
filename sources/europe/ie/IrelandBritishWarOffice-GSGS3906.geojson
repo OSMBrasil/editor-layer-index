@@ -2,12 +2,12 @@
     "type": "Feature",
     "properties": {
         "attribution": {
-            "url": "http://wiki.openstreetmap.org/wiki/WikiProject_Ireland#Trinity_College_Dublin",
+            "url": "https://wiki.openstreetmap.org/wiki/WikiProject_Ireland#Trinity_College_Dublin",
             "text": "Glucksman Map Library, Trinity College Dublin",
             "required": true
         },
         "name": "Ireland British War Office 1:25k GSGS 3906",
-        "url": "http://mapwarper.net/layers/tile/101/{zoom}/{x}/{y}.png",
+        "url": "https://mapwarper.net/layers/tile/101/{zoom}/{x}/{y}.png",
         "max_zoom": 18,
         "country_code": "IE",
         "type": "tms",

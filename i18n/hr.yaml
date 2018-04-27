@@ -23,9 +23,6 @@ hr:
         text: Uvjeti i povratne informacije
       description: Satelitske i zračne snimke.
       name: Mapbox Satellite
-    New_and_Misaligned_TIGER_Roads-2013:
-      description: 'Na približenju 16+, podaci karte su iz javne domene US Censusa. Na udaljenijim prikazima, samo promjene od 2006 minus promjene koje su već uključene na OpenStreetMap.  '
-      name: Nove i krivo poravnane TIGER ceste
     OSM_Inspector-Addresses:
       attribution:
         text: © Geofabrik GmbH, OpenStreetMap doprinositelji, CC-BY-SA
@@ -55,29 +52,18 @@ hr:
         text: © Geofabrik GmbH, OpenStreetMap doprinositelji, CC-BY-SA
       name: 'OSM Inspector: Označavanje'
     Waymarked_Trails-Cycling:
-      attribution:
-        text: © Sarah Hoffmann, CC by-SA 3.0, podaci karte OpenStreetMap doprinositelji, ODbL 1.0
       name: 'Waymarked Trails: Biciklizam'
     Waymarked_Trails-Hiking:
-      attribution:
-        text: © Sarah Hoffmann, CC by-SA 3.0, podaci karte OpenStreetMap doprinositelji, ODbL 1.0
       name: 'Waymarked Trails: Planinarenje'
     Waymarked_Trails-MTB:
-      attribution:
-        text: © Sarah Hoffmann, CC by-SA 3.0, podaci karte OpenStreetMap doprinositelji, ODbL 1.0
       name: 'Waymarked Trails: MTB'
     Waymarked_Trails-Skating:
-      attribution:
-        text: © Sarah Hoffmann, CC by-SA 3.0, podaci karte OpenStreetMap doprinositelji, ODbL 1.0
       name: 'Waymarked Trails: Rolanje'
     Waymarked_Trails-Winter_Sports:
-      attribution:
-        text: © Michael Spreng, CC by-SA 3.0, podaci karte OpenStreetMap doprinositelji, ODbL 1.0
       name: 'Waymarked Trails: Zimski sportovi'
     basemap.at:
       attribution:
         text: basemap.at
-      description: Osnovna karta Austrije, bazirano na vladinim podacima.
       name: basemap.at
     basemap.at-orthofoto:
       attribution:
@@ -119,8 +105,6 @@ hr:
         text: '© Sličice: skobbler Podaci karte: OpenStreetMap doprinositelji'
       name: skobbler
     stamen-terrain-background:
-      attribution:
-        text: Sličice karte od Stamen Design, pod CC BY 3.0
       name: Stamen Terrain
     tf-cycle:
       attribution:

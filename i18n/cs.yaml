@@ -1,0 +1,135 @@
+cs:
+  imagery:
+    Bing:
+      description: Satelitní a letecké snímky.
+      name: Letecké snímky Bing
+    DigitalGlobe-Premium:
+      attribution:
+        text: Podmínky použití & zpětná vazba
+      description: Prémiové satelitní snímky DigitalGlobe
+      name: Prémiové snímky DigitalGlobe
+    DigitalGlobe-Premium-vintage:
+      attribution:
+        text: Podmínky použití a zpětná vazba
+    DigitalGlobe-Standard:
+      attribution:
+        text: Podmínky použití & zpětná vazba
+      description: Standardní satelitní snímky DigitalGlobe
+      name: Standardní snímky DigitalGlobe
+    DigitalGlobe-Standard-vintage:
+      attribution:
+        text: Podmínky použití a zpětná vazba
+    EsriWorldImagery:
+      attribution:
+        text: Podmínky použití & zpětná vazba
+    EsriWorldImageryClarity:
+      attribution:
+        text: Podmínky použití a zpětná vazba
+    MAPNIK:
+      attribution:
+        text: © Přispěvatelé OpenStreetMap, CC-BY-SA
+      description: Výchozí vrstva OpenStreetMap.
+      name: OpenStreetMap (standardní)
+    Mapbox:
+      attribution:
+        text: Podmínky použití & zpětná vazba
+      description: Satelitní a letecké snímky.
+      name: Satelitní snímky Mapbox
+    OSM_Inspector-Addresses:
+      attribution:
+        text: © Geofabrik GmbH, přispěvatelé OpenStreetMap, CC-BY-SA
+      name: 'OSM Inspektor: Adresy'
+    OSM_Inspector-Geometry:
+      attribution:
+        text: © Geofabrik GmbH, přispěvatelé OpenStreetMap, CC-BY-SA
+      name: 'OSM Inspektor: Geometrie'
+    OSM_Inspector-Highways:
+      attribution:
+        text: © Geofabrik GmbH, přispěvatelé OpenStreetMap, CC-BY-SA
+      name: 'OSM Inspektor: Cesty'
+    OSM_Inspector-Multipolygon:
+      attribution:
+        text: © Geofabrik GmbH, přispěvatelé OpenStreetMap, CC-BY-SA
+      name: 'OSM Inspektor: Plochy'
+    OSM_Inspector-Places:
+      attribution:
+        text: © Geofabrik GmbH, přispěvatelé OpenStreetMap, CC-BY-SA
+      name: 'OSM Inspektor: Místa'
+    OSM_Inspector-Routing:
+      attribution:
+        text: © Geofabrik GmbH, přispěvatelé OpenStreetMap, CC-BY-SA
+      name: 'OSM Inspektor: Navigace'
+    OSM_Inspector-Tagging:
+      attribution:
+        text: © Geofabrik GmbH, přispěvatelé OpenStreetMap, CC-BY-SA
+      name: 'OSM Inspektor: Štítkování'
+    US-TIGER-Roads-2012:
+      name: TIGER Roads 2012
+    US-TIGER-Roads-2014:
+      name: TIGER Roads 2014
+    US-TIGER-Roads-2017:
+      name: TIGER Roads 2017
+    Waymarked_Trails-Cycling:
+      attribution:
+        text: © waymarkedtrails.org, přispěvatelé OpenStreetMap, CC BY-SA 3.0
+      name: 'Vyznačené cesty: Cyklistika'
+    Waymarked_Trails-Hiking:
+      attribution:
+        text: © waymarkedtrails.org, přispěvatelé OpenStreetMap, CC BY-SA 3.0
+      name: 'Vyznačené cesty: Turistika'
+    Waymarked_Trails-MTB:
+      attribution:
+        text: © waymarkedtrails.org, přispěvatelé OpenStreetMap, CC BY-SA 3.0
+      name: 'Vyznačené cesty: Horská kola'
+    Waymarked_Trails-Skating:
+      attribution:
+        text: © waymarkedtrails.org, přispěvatelé OpenStreetMap, CC BY-SA 3.0
+      name: 'Vyznačené cesty: Bruslení'
+    Waymarked_Trails-Winter_Sports:
+      attribution:
+        text: © waymarkedtrails.org, přispěvatelé OpenStreetMap, CC BY-SA 3.0
+      name: 'Vyznačené cesty: Zimní sporty'
+    basemap.at:
+      attribution:
+        text: basemap.at
+      name: basemap.at
+    basemap.at-orthofoto:
+      attribution:
+        text: basemap.at
+      name: Ortofoto basemap.at
+    hike_n_bike:
+      attribution:
+        text: © Přispěvatelé OpenStreetMap
+      name: Turistika & cyklistika
+    mapbox_locator_overlay:
+      attribution:
+        text: Podmínky použití & zpětná vazba
+      name: Překryv lokátoru
+    openpt_map:
+      attribution:
+        text: © přispěvatelé OpenStreetMap, CC-BY-SA
+      name: OpenPT Map (překryv)
+    osm-gps:
+      attribution:
+        text: © Přispěvatelé OpenStreetMap
+      description: Veřejné GPS trasy odeslané na OpenStreetMap.
+      name: GPS stopy OpenStreetMap
+    osm-mapnik-black_and_white:
+      attribution:
+        text: © Přispěvatelé OpenStreetMap, CC-BY-SA
+      name: OpenStreetMap (standardní černobílá)
+    osm-mapnik-german_style:
+      attribution:
+        text: © Přispěvatelé OpenStreetMap, CC-BY-SA
+      name: OpenStreetMap (německý styl)
+    qa_no_address:
+      attribution:
+        text: Simon Poole, data © přispěvatelé OpenStreetMap
+    stamen-terrain-background:
+      name: Terén Stamen
+    tf-cycle:
+      attribution:
+        text: Mapy © Thunderforest, data © přispěvatelé OpenStreetMap
+    tf-landscape:
+      attribution:
+        text: Mapy © Thunderforest, data © přispěvatelé OpenStreetMap

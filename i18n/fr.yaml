@@ -8,11 +8,31 @@ fr:
         text: Termes & commentaires
       description: Images satellite DigitalGlobe premium
       name: Images DigitalGlobe premium
+    DigitalGlobe-Premium-vintage:
+      attribution:
+        text: Termes & commentaires
+      description: Limites et dates des images. Les textes sont visibles à partir du niveau de zoom 13.
+      name: Images DigitalGlobe Premium Vintage
     DigitalGlobe-Standard:
       attribution:
         text: Termes & commentaires
       description: Images satellite DigitalGlobe standard
       name: Images DigitalGlobe standard
+    DigitalGlobe-Standard-vintage:
+      attribution:
+        text: Termes & commentaires
+      description: Limites et dates des images. Les textes sont visibles à partir du niveau de zoom 13.
+      name: Images DigitalGlobe Standard Vintage
+    EsriWorldImagery:
+      attribution:
+        text: Termes & commentaires
+      description: Images mondiales Esri
+      name: Images mondiales Esri
+    EsriWorldImageryClarity:
+      attribution:
+        text: Termes & commentaires
+      description: Images Esri archivées qui peut être plus propre et plus précise que la couche par défaut
+      name: Images Esri mondiales (clarifiées) bêta
     MAPNIK:
       attribution:
         text: © contributeurs OpenStreetMap, CC-BY-SA
@@ -23,9 +43,6 @@ fr:
         text: Images satellite DigitalGlobe premium
       description: Images satellite et aérienne
       name: 'Satellite Mapbox '
-    New_and_Misaligned_TIGER_Roads-2013:
-      description: Au niveau de zoom 16+, carte du domaine public issue du recensement américain. A des niveaux de zooms inférieur, les changements depuis 2006, moins les changements déjà incorporés dans OpenStreetMap
-      name: Routes TIGER nouvelles & mal alignées
     OSM_Inspector-Addresses:
       attribution:
         text: © Geofabrik GmbH, contributeurs OpenStreetMap, CC-BY-SA
@@ -54,25 +71,35 @@ fr:
       attribution:
         text: © Geofabrik GmbH, contributeurs OpenStreetMap, CC-BY-SA
       name: 'OSM Inspector: Étiqueter'
+    US-TIGER-Roads-2012:
+      name: Données géographiques et topologiques intégrées et encodées 2012
+    US-TIGER-Roads-2014:
+      description: Au niveau de zoom 16+, carte du domaine public issue du recensement américain. A des niveaux de zooms inférieur, les changements depuis 2006, moins les changements déjà incorporés dans OpenStreetMap
+      name: Données géographiques et topologiques intégrées et encodées 2014
+    US-TIGER-Roads-2017:
+      description: Le jaune correspond aux données des cartes du domaine public issues du recensement américain, le rouge à des données non trouvées dans OpenStreetMap
+      name: Données géographiques et topologiques intégrées et encodées 2017
+    US_Forest_Service_roads_overlay:
+      name: Surcouche des routes forestières états-uniennes
     Waymarked_Trails-Cycling:
       attribution:
-        text: © Sarah Hoffmann, CC by-SA 3.0, données cartographiques des contributeurs OpenStreetMap, ODbL 1.0
+        text: © waymarkedtrails.org, contributeurs OpenStreetMap, CC by-SA 3.0
       name: 'Waymarked Trails: Vélo'
     Waymarked_Trails-Hiking:
       attribution:
-        text: © Sarah Hoffmann, CC by-SA 3.0, données cartographiques des contributeurs OpenStreetMap, ODbL 1.0
+        text: © waymarkedtrails.org, contributeurs OpenStreetMap, CC by-SA 3.0
       name: 'Waymarked Trails: Randonnée'
     Waymarked_Trails-MTB:
       attribution:
-        text: © Sarah Hoffmann, CC by-SA 3.0, données cartographiques des contributeurs OpenStreetMap, ODbL 1.0
+        text: © waymarkedtrails.org, contributeurs OpenStreetMap, CC by-SA 3.0
       name: 'Waymarked Trails: MTB'
     Waymarked_Trails-Skating:
       attribution:
-        text: © Sarah Hoffmann, CC by-SA 3.0, données cartographiques des contributeurs OpenStreetMap, ODbL 1.0
+        text: © waymarkedtrails.org, contributeurs OpenStreetMap, CC by-SA 3.0
       name: 'Waymarked Trails: Patinage'
     Waymarked_Trails-Winter_Sports:
       attribution:
-        text: © Sarah Hoffmann, CC by-SA 3.0, données cartographiques des contributeurs OpenStreetMap, ODbL 1.0
+        text: © waymarkedtrails.org, contributeurs OpenStreetMap, CC by-SA 3.0
       name: 'Waymarked Trails: Sports d''hiver'
     basemap.at:
       attribution:
@@ -120,7 +147,7 @@ fr:
       name: skobbler
     stamen-terrain-background:
       attribution:
-        text: Map tiles par Stamen Design, sous CC BY 3.0
+        text: Tuiles par Stamen Design, sous CC-BY 3.0. Données par OpenStreetMap, sous ODbL
       name: Stamen Terrain
     tf-cycle:
       attribution:

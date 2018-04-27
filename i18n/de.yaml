@@ -2,38 +2,50 @@ de:
   imagery:
     Bing:
       description: Satellitenbilder und Luftbilder
-      name: Bing-Bildmaterial
+      name: Bing Luftbildmaterial
     DigitalGlobe-Premium:
       attribution:
         text: Bedingungen & Feedback
-      description: Premium-DigitalGlobe-Satellitenbilder
-      name: DigitalGlobe Premium
+      description: Premium DigitalGlobe Satellitenbilder
+      name: DigitalGlobe Premium Bildmaterial
+    DigitalGlobe-Premium-vintage:
+      attribution:
+        text: Bedingungen & Feedback
+      description: Kachelgrenzen und Aufnahmedatum werden bei Zoom-Level 13 und höher angezeigt.
+      name: DigitalGlobe Premium Bildmaterial Klassisch
     DigitalGlobe-Standard:
       attribution:
         text: Bedingungen & Feedback
-      description: Standard-DigitalGlobe-Satellitenbilder
-      name: DigitalGlobe Standard
+      description: Standard DigitalGlobe Satellitenbilder
+      name: DigitalGlobe Standard Bildmaterial
+    DigitalGlobe-Standard-vintage:
+      attribution:
+        text: Bedingungen & Feedback
+      description: Kachelgrenzen und Aufnahmedatum werden bei Zoom-Level 13 und höher angezeigt.
+      name: DigitalGlobe Standard Bildmaterial Klassisch
     EsriWorldImagery:
       attribution:
         text: Bedingungen & Feedback
-      description: Esri world imagery.
-      name: Esri World Imagery
+      description: Esri World Bildmaterial.
+      name: Esri World Bildmaterial
+    EsriWorldImageryClarity:
+      attribution:
+        text: Bedingungen & Feedback
+      description: Esri Archiv-Bildmaterial (kann klarer und genauer sein)
+      name: Esri World Bildmaterial (Clarity) Beta
     MAPNIK:
       attribution:
-        text: © OpenStreetMap-Mitwirkende, CC-BY-SA
-      description: Standard-OpenStreetMap-Karten-Layer
+        text: © OpenStreetMap-Mitwirkende, CC BY-SA
+      description: Standard OpenStreetMap Kartenansicht
       name: OpenStreetMap (Standard)
     Mapbox:
       attribution:
         text: Bedingungen & Feedback
       description: Satellitenbilder und Luftbilder
       name: Mapbox Satellit
-    New_and_Misaligned_TIGER_Roads-2013:
-      description: 'Zoom 16+: Freie Kartendaten aus der USA-Volkszählung, Zoom 15-: Nur Änderungen seit 2006 die in OpenStreetMap fehlen'
-      name: Neue/verschobene TIGER Straßen
     OSM_Inspector-Addresses:
       attribution:
-        text: © Geofabrik GmbH, OpenStreetMap-Mitwirkende, CC-BY-SA
+        text: © Geofabrik GmbH, OpenStreetMap-Mitwirkende, CC BY-SA
       name: 'OSM-Objekteditor: Adressen'
     OSM_Inspector-Geometry:
       attribution:
@@ -58,31 +70,41 @@ de:
     OSM_Inspector-Tagging:
       attribution:
         text: © Geofabrik GmbH, OpenStreetMap-Mitwirkende, CC-BY-SA
-      name: 'OSM-Objekteditor: Kennzeichnung'
+      name: 'OSM-Objekteditor: Attribute'
+    US-TIGER-Roads-2012:
+      name: TIGER Straßen 2012
+    US-TIGER-Roads-2014:
+      description: Bei Zoom Level 16+ Public Domain Kartendaten vom US Census. Bei niedrigeren Zoom Leves werden nur die Änderungen seit 2006 ohne die bereits nach OpenStreetMap eingearbeiteten Änderungen
+      name: TIGER Straßen 2014
+    US-TIGER-Roads-2017:
+      description: Gelb = Freie Daten vom US Census. Rot = In OpenStreetMap fehlende Daten
+      name: TIGER Straßen 2017
+    US_Forest_Service_roads_overlay:
+      name: U.S.A. Forststraßen Overlay
     Waymarked_Trails-Cycling:
       attribution:
-        text: © Sarah Hoffmann, CC-BY-SA 3.0, Kartendaten © OpenStreetMap-Mitwirkende, ODbL 1.0
-      name: 'Waymarked Trails: Radfahren'
+        text: © waymarkedtrails.org, OpenStreetMap-Mitwirkende, CC BY-SA 3.0
+      name: 'Markierte Wege: Radfahren'
     Waymarked_Trails-Hiking:
       attribution:
-        text: © Sarah Hoffmann, CC-BY-SA 3.0, Kartendaten © OpenStreetMap-Mitwirkende, ODbL 1.0
-      name: 'Waymarked Trails: Wandern'
+        text: © waymarkedtrails.org, OpenStreetMap-Mitwirkende, CC BY-SA 3.0
+      name: 'Markierte Wege: Wandern'
     Waymarked_Trails-MTB:
       attribution:
-        text: © Sarah Hoffmann, CC-BY-SA 3.0, Kartendaten © OpenStreetMap-Mitwirkende, ODbL 1.0
-      name: 'Waymarked Trails: Mountainbiking'
+        text: © waymarkedtrails.org, OpenStreetMap-Mitwirkende, CC BY-SA 3.0
+      name: 'Markierte Wege: Mountainbiking'
     Waymarked_Trails-Skating:
       attribution:
-        text: © Sarah Hoffmann, CC-BY-SA 3.0, Kartendaten © OpenStreetMap-Mitwirkende, ODbL 1.0
-      name: 'Waymarked Trails: Skating'
+        text: © waymarkedtrails.org, OpenStreetMap-Mitwirkende, CC BY-SA 3.0
+      name: 'Markierte Wege: Skating'
     Waymarked_Trails-Winter_Sports:
       attribution:
-        text: © Sarah Hoffmann, CC-BY-SA 3.0, Kartendaten © OpenStreetMap-Mitwirkende, ODbL 1.0
-      name: 'Waymarked Trails: Wintersport'
+        text: © waymarkedtrails.org, OpenStreetMap-Mitwirkende, CC BY-SA 3.0
+      name: 'Markierte Wege: Wintersport'
     basemap.at:
       attribution:
         text: basemap.at
-      description: Amtliche Verwaltungsgrundkarte von Österreich
+      description: basemap von Österreich, basiert auf Regierungsdaten
       name: basemap.at
     basemap.at-orthofoto:
       attribution:
@@ -97,7 +119,7 @@ de:
       attribution:
         text: Bedingungen & Feedback
       description: Länder/Städte/Orte/Straßen zum Orientieren
-      name: Orientierungs-Overlay
+      name: Orientierungs-Informationen
     openpt_map:
       attribution:
         text: © OpenStreetMap-Mitwirkende, CC-BY-SA
@@ -105,8 +127,8 @@ de:
     osm-gps:
       attribution:
         text: © OpenStreetMap-Mitwirkende
-      description: Öffentliche GPS-Tracks von OpenStreetMap-Mitwirkenden
-      name: GPS-Tracks von OpenStreetMap
+      description: Öffentliche GPS Tracks hochgeladen von OpenStreetMap-Mitwirkenden
+      name: OpenStreetMap GPS Tracks
     osm-mapnik-black_and_white:
       attribution:
         text: © OpenStreetMap-Mitwirkende, CC-BY-SA
@@ -125,7 +147,7 @@ de:
       name: skobbler
     stamen-terrain-background:
       attribution:
-        text: Kacheln © Stamen Design, CC-BY 3.0
+        text: Kacheln © Stamen Design, CC BY 3.0, Kartendaten © OpenStreetMap-Mitwirkende, ODbL 1.0
       name: Stamen Terrain
     tf-cycle:
       attribution:

@@ -1,18 +1,36 @@
 uk:
   imagery:
     Bing:
-      description: Супутникові та аерофотознімки
+      description: Супутникові та аерофотознімки.
       name: Знімки Bing
     DigitalGlobe-Premium:
       attribution:
         text: Умови використання та Відгуки
       description: Супутникові знімки DigitalGlobe Premium
       name: Знімки DigitalGlobe Premium
+    DigitalGlobe-Premium-vintage:
+      attribution:
+        text: Умови використання та Відгуки
+      name: Період знімків DigitalGlobe Premium
     DigitalGlobe-Standard:
       attribution:
         text: Умови використання та Відгуки
       description: Супутникові знімки DigitalGlobe Standard.
       name: Знімки DigitalGlobe Standard
+    DigitalGlobe-Standard-vintage:
+      attribution:
+        text: Умови використання та Відгуки
+      name: Період знімків DigitalGlobe Standard
+    EsriWorldImagery:
+      attribution:
+        text: Умови використання та Відгуки
+      description: Знімки Esri.
+      name: Знімки Esri
+    EsriWorldImageryClarity:
+      attribution:
+        text: Умови використання та Відгуки
+      description: Архівні знімки Esri які можуть бути чіткішими та більш точними ніж знімки зі звичайного шару.
+      name: Знімки Esri (Прозорі) бета
     MAPNIK:
       attribution:
         text: © Учасники OpenStreetMap, CC-BY-SA
@@ -23,9 +41,6 @@ uk:
         text: Умови використання та Відгуки
       description: Супутникові та аерофотознімки.
       name: Супутникові знімки Mapbox
-    New_and_Misaligned_TIGER_Roads-2013:
-      description: Починачи з 16 рівня масштабу, публічні дані від US Census. На менш докладних рівнях – тільки зміни починаючи з 2006 за мінусом змін, що вже були додавні в OpenStreetMap
-      name: Нові та не перевірені дороги з TIGER
     OSM_Inspector-Addresses:
       attribution:
         text: © Geofabrik GmbH, Учасники OpenStreetMap, CC-BY-SA
@@ -54,30 +69,38 @@ uk:
       attribution:
         text: © Geofabrik GmbH, Учасники OpenStreetMap, CC-BY-SA
       name: 'OSM Інспектор: Теґи'
+    US-TIGER-Roads-2012:
+      name: TIGER Roads 2012
+    US-TIGER-Roads-2014:
+      description: На масштабах 16+, дані, що розповсюджуються US Census на умовах суспільного надбання. На менш докладних масштабах, тільки зміни з 2006 року з виключенням вже перенесених в OpenStreetMap даних.
+      name: TIGER Roads 2014
+    US-TIGER-Roads-2017:
+      description: Жовтий = Дані, що розповсюджуються US Census на умовах суспільного надбання. Червоний = Дані, відсутні в OpenStreetMap
+      name: TIGER Roads 2017
     Waymarked_Trails-Cycling:
       attribution:
-        text: © Sarah Hoffmann, CC by-SA 3.0, дані мап Учасники OpenStreetMap, ODbL 1.0
+        text: © waymarkedtrails.org, Учасники OpenStreetMap, CC by-SA 3.0
       name: 'Позначені маршрути: Велосипедні'
     Waymarked_Trails-Hiking:
       attribution:
-        text: © Sarah Hoffmann, CC by-SA 3.0, дані мап Учасники OpenStreetMap, ODbL 1.0
+        text: © waymarkedtrails.org, Учасники OpenStreetMap, CC by-SA 3.0
       name: 'Позначені маршрути: Туристичні'
     Waymarked_Trails-MTB:
       attribution:
-        text: © Sarah Hoffmann, CC by-SA 3.0, дані мап Учасники OpenStreetMap, ODbL 1.0
+        text: © waymarkedtrails.org, Учасники OpenStreetMap, CC by-SA 3.0
       name: 'Позначені маршрути: MTB'
     Waymarked_Trails-Skating:
       attribution:
-        text: © Sarah Hoffmann, CC by-SA 3.0, дані мап Учасники OpenStreetMap, ODbL 1.0
+        text: © waymarkedtrails.org, Учасники OpenStreetMap, CC by-SA 3.0
       name: 'Позначені маршрути: Ковзани'
     Waymarked_Trails-Winter_Sports:
       attribution:
-        text: © Sarah Hoffmann, CC by-SA 3.0, дані мап Учасники OpenStreetMap, ODbL 1.0
+        text: © waymarkedtrails.org, Учасники OpenStreetMap, CC by-SA 3.0
       name: 'Позначені маршрути: Зимові вид спорту'
     basemap.at:
       attribution:
         text: basemap.at
-      description: Базова мапа Австрії, на основі урядових даних.
+      description: Мапа Австрії, на основі урядових даних.
       name: basemap.at
     basemap.at-orthofoto:
       attribution:
@@ -120,7 +143,7 @@ uk:
       name: skobbler
     stamen-terrain-background:
       attribution:
-        text: Тайли мапи від Stamen Design, CC BY 3.0
+        text: Тайли мапи від Stamen Design, CC BY 3.0. Дані OpenStreetMap, ODbL.
       name: Stamen Terrain
     tf-cycle:
       attribution:

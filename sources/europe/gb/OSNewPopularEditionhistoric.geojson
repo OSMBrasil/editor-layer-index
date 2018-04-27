@@ -2,9 +2,10 @@
     "type": "Feature",
     "properties": {
         "id": "OS-New_Popular_Edition-historic",
-        "url": "http://ooc.openstreetmap.org/npe/{zoom}/{x}/{y}.png",
+        "url": "https://ooc.openstreetmap.org/npe/{zoom}/{x}/{y}.png",
         "type": "tms",
         "name": "OS New Popular Edition historic",
+        "min_zoom": 6,
         "country_code": "GB"
     },
     "geometry": {

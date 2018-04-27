@@ -8,11 +8,22 @@ sl:
         text: Pogoji uporabe in odziv
       description: Satelitski posnetki DigitalGlobe Premium
       name: Posnetki DigitalGlobe Premium
+    DigitalGlobe-Premium-vintage:
+      attribution:
+        text: Pogoji uporabe in odziv
     DigitalGlobe-Standard:
       attribution:
         text: Pogoji uporabe in odziv
       description: Satelitski posnetki DigitalGlobe Standard
       name: Posnetki DigitalGlobe Standard
+    DigitalGlobe-Standard-vintage:
+      attribution:
+        text: Pogoji uporabe in odziv
+    EsriWorldImagery:
+      attribution:
+        text: Pogoji uporabe in odziv
+      description: Posnetki sveta Esri
+      name: Posnetki sveta Esri
     MAPNIK:
       attribution:
         text: Skupnost © OpenStreetMap z dovoljenjem CC-BY-SA
@@ -23,9 +34,6 @@ sl:
         text: Pogoji uporabe in odziv
       description: Satelitski posnetki in posnetki iz zraka
       name: Posnetki Mapbox Satellite
-    New_and_Misaligned_TIGER_Roads-2013:
-      description: Pri približanju do ravni 16+ so podatki zemljevida v javni domeni z dovoljenjem US Census. Pri večjih približanjih, pa so prikazane le spremembe od leta 2006 naprej, neupoštevajoč sprememb, ki so že vključene v OpenStreetMap
-      name: Nove in nenatančno vrisane poti TIGER
     OSM_Inspector-Addresses:
       attribution:
         text: © Geofabrik GmbH, skupnost © OpenStreetMap z dovoljenjem CC-BY-SA
@@ -55,29 +63,18 @@ sl:
         text: © Geofabrik GmbH, skupnost © OpenStreetMap z dovoljenjem CC-BY-SA
       name: 'OSM Inspector: oznake'
     Waymarked_Trails-Cycling:
-      attribution:
-        text: © Sarah Hoffmann z dovoljenjem CC BY-SA 3.0, podatki zemljevida skupnost © OpenStreetMap  z dovoljenjem ODbL 1.0
       name: 'Waymarked Trails: kolesarjenje'
     Waymarked_Trails-Hiking:
-      attribution:
-        text: © Sarah Hoffmann z dovoljenjem CC BY-SA 3.0, podatki zemljevida skupnost © OpenStreetMap z dovoljenjem ODbL 1.0
       name: 'Waymarked Trails: pohodništvo'
     Waymarked_Trails-MTB:
-      attribution:
-        text: © Sarah Hoffmann z dovoljenjem CC BY-SA 3.0, podatki zemljevida skupnost © OpenStreetMap z dovoljenjem ODbL 1.0
       name: 'Waymarked Trails: MTB'
     Waymarked_Trails-Skating:
-      attribution:
-        text: © Sarah Hoffmann z dovoljenjem CC BY-SA 3.0, podatki zemljevida skupnost © OpenStreetMap z dovoljenjem ODbL 1.0
       name: 'Waymarked Trails: rolkanje in rolanje'
     Waymarked_Trails-Winter_Sports:
-      attribution:
-        text: © Michael Spreng z dovoljenjem CC BY-SA 3.0, podatki zemljevida skupnost © OpenStreetMap z dovoljenjem ODbL 1.0
       name: 'Waymarked Trails: zimski športi'
     basemap.at:
       attribution:
         text: basemap.at
-      description: Osnovni zemljevid Avstrije, ki temelji na uradnih podatkih
       name: basemap.at
     basemap.at-orthofoto:
       attribution:

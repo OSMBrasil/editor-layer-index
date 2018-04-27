@@ -8,11 +8,31 @@ ru:
         text: Условия и обратная связь
       description: Премиум спутниковые снимки DigitalGlobe.
       name: Премиум снимки DigitalGlobe.
+    DigitalGlobe-Premium-vintage:
+      attribution:
+        text: Условия и обратная связь
+      description: Границы подложек и даты съемки. Надписи появляются на 13 зуме и выше.
+      name: Премиум снимки DigitalGlobe (Vintage).
     DigitalGlobe-Standard:
       attribution:
         text: Условия и обратная связь
       description: Стандартные спутниковые снимки DigitalGlobe.
       name: Стандартные снимки DigitalGlobe
+    DigitalGlobe-Standard-vintage:
+      attribution:
+        text: Условия и обратная связь
+      description: Границы подложек и даты съемки. Надписи появляются на 13 зуме и выше.
+      name: Стандартные снимки DigitalGlobe (Vintage)
+    EsriWorldImagery:
+      attribution:
+        text: Условия и обратная связь
+      description: Всемирные снимки Esri
+      name: Всемирные снимки Esri
+    EsriWorldImageryClarity:
+      attribution:
+        text: Условия и обратная связь
+      description: Архивная подложка Esri, может быть чище и аккуратнее чем не-архивная.
+      name: Всемирные снимки Esri (Clarity)
     MAPNIK:
       attribution:
         text: © Участники OpenStreetMap, CC-BY-SA
@@ -23,9 +43,6 @@ ru:
         text: Условия и обратная связь
       description: Спутниковые и аэрофотоснимки.
       name: Спутниковые снимки Mapbox
-    New_and_Misaligned_TIGER_Roads-2013:
-      description: На уровне масштабирования 16+ - данные общедоступного картографирования из переписи населения США. При более низких масштабах - изменения только с 2006 года минус изменения, уже включенные в OpenStreetMap
-      name: Новые и смещенные дороги TIGER
     OSM_Inspector-Addresses:
       attribution:
         text: © Geofabrik GmbH, участники OpenStreetMap, CC-BY-SA
@@ -41,7 +58,7 @@ ru:
     OSM_Inspector-Multipolygon:
       attribution:
         text: © Geofabrik GmbH, участники OpenStreetMap, CC-BY-SA
-      name: 'OSM Inspector: Область'
+      name: 'OSM Inspector: Полигон'
     OSM_Inspector-Places:
       attribution:
         text: © Geofabrik GmbH, участники OpenStreetMap, CC-BY-SA
@@ -54,25 +71,33 @@ ru:
       attribution:
         text: © Geofabrik GmbH, участники OpenStreetMap, CC-BY-SA
       name: 'OSM Inspector: Теги'
+    US-TIGER-Roads-2012:
+      name: TIGER дороги 2012
+    US-TIGER-Roads-2014:
+      description: На зумах 16+ — общедостпуные картографические данные от US Census. На меньших зумах — только изменения с 2006 за вычетом изменений, включённых в OpenStreetMap
+      name: TIGER дороги 2014
+    US-TIGER-Roads-2017:
+      description: Жёлтым = общедоступные картографические данные от US Census. Красным = данные, отсутствующие в OpenStreetMap
+      name: TIGER дороги 2017
     Waymarked_Trails-Cycling:
       attribution:
-        text: '© Sarah Hoffmann, CC by-SA 3.0, данные карты: участники  OpenStreetMap, ODbL 1.0'
+        text: © waymarkedtrails.org, участники OpenStreetMap, CC by-SA 3.0
       name: 'Путевые маршруты: Велосипед'
     Waymarked_Trails-Hiking:
       attribution:
-        text: '© Sarah Hoffmann, CC by-SA 3.0, данные карты: участники  OpenStreetMap, ODbL 1.0'
+        text: © waymarkedtrails.org, участники OpenStreetMap, CC by-SA 3.0
       name: 'Путевые маршруты: Пеший туризм'
     Waymarked_Trails-MTB:
       attribution:
-        text: '© Sarah Hoffmann, CC by-SA 3.0, данные карты: участники  OpenStreetMap, ODbL 1.0'
+        text: © waymarkedtrails.org, участники OpenStreetMap, CC by-SA 3.0
       name: 'Путевые маршруты: Горный велосипед'
     Waymarked_Trails-Skating:
       attribution:
-        text: '© Sarah Hoffmann, CC by-SA 3.0, данные карты: участники  OpenStreetMap, ODbL 1.0'
+        text: © waymarkedtrails.org, участники OpenStreetMap, CC by-SA 3.0
       name: 'Путевые маршруты: Коньки'
     Waymarked_Trails-Winter_Sports:
       attribution:
-        text: '© Michael Spreng, CC by-SA 3.0, данные карты: участники  OpenStreetMap, ODbL 1.0'
+        text: © waymarkedtrails.org, участники OpenStreetMap, CC by-SA 3.0
       name: 'Путевые маршруты: Зимние виды спорта'
     basemap.at:
       attribution:
@@ -87,6 +112,7 @@ ru:
     hike_n_bike:
       attribution:
         text: © Участники OpenStreetMap
+      name: Туристическая
     mapbox_locator_overlay:
       attribution:
         text: Условия и обратная связь
@@ -115,11 +141,11 @@ ru:
       name: 'Контроль качества: нет адреса'
     skobbler:
       attribution:
-        text: '© Плитки карты: skobbler, данные карты: участники  OpenStreetMap, ODbL 1.0'
+        text: '© Тайлы: skobbler Картографические данные: участники OpenStreetMap'
       name: skobbler
     stamen-terrain-background:
       attribution:
-        text: 'Плитки карты: Stamen Design, по CC BY 3.0'
+        text: 'Тайлы: Stamen Design, под CC BY 3.0. Данные: OpenStreetMap, под ODbL'
       name: Stamen Ландшафт
     tf-cycle:
       attribution:

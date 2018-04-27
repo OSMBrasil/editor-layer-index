@@ -13,6 +13,9 @@ ro:
         text: Termeni & Feedback
       description: Imagini de satelit DigitalGlobe standard.
       name: Imagini DigitalGlobe Standard
+    DigitalGlobe-Standard-vintage:
+      attribution:
+        text: Termeni & Feedback
     MAPNIK:
       attribution:
         text: © Contribuitori OpenStreetMap, CC-BY-SA
@@ -23,8 +26,6 @@ ro:
         text: Termeni & feedback
       description: Satelit și imagini aeriane.
       name: Satelit Mapbox
-    New_and_Misaligned_TIGER_Roads-2013:
-      name: Străzi TIGER Noi & Alineate Greșit
     OSM_Inspector-Addresses:
       attribution:
         text: © Geofabrik GmbH, contribuitori OpenStreetMap, CC-BY-SA
@@ -54,29 +55,18 @@ ro:
         text: © Geofabrik GmbH, contribuitori OpenStreetMap, CC-BY-SA
       name: 'Inspector OSM: Adăugare de taguri'
     Waymarked_Trails-Cycling:
-      attribution:
-        text: © Sarah Hoffmann, CC by-SA 3.0, date de hartă contribuitori OpenStreetMap, ODbL 1.0
       name: 'Trasee Marcate: Bicicletă'
     Waymarked_Trails-Hiking:
-      attribution:
-        text: © Sarah Hoffmann, CC by-SA 3.0, date de hartă contribuitori OpenStreetMap, ODbL 1.0
       name: 'Trasee Marcate: Drumeție'
     Waymarked_Trails-MTB:
-      attribution:
-        text: © Sarah Hoffmann, CC by-SA 3.0, date de hartă contribuitori OpenStreetMap, ODbL 1.0
       name: 'Trasee Marcate: MTB'
     Waymarked_Trails-Skating:
-      attribution:
-        text: © Sarah Hoffmann, CC by-SA 3.0, date de hartă contribuitori OpenStreetMap, ODbL 1.0
       name: 'Trasee Marcate: Skating'
     Waymarked_Trails-Winter_Sports:
-      attribution:
-        text: © Michael Spreng, CC by-SA 3.0, date de hartă contribuitori OpenStreetMap, ODbL 1.0
       name: 'Trasee Marcate: Sporturi de iarnă'
     basemap.at:
       attribution:
         text: basemap.at
-      description: Basemap de Austria, bazat pe date ale guvernamentului.
       name: basemap.at
     basemap.at-orthofoto:
       attribution:
@@ -118,8 +108,6 @@ ro:
         text: '© Plăci: skobbler Date hartă: Contribuitori OpenStreetMap'
       name: skobbler
     stamen-terrain-background:
-      attribution:
-        text: Plăci de hartă de Stamen Design, sub CC BY 3.0
       name: Teren Stamen
     tf-cycle:
       attribution:

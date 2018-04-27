@@ -1,7 +1,7 @@
 var map = L.map('map').fitWorld();
 
-L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'
 }).addTo(map);
 
 d3.json("imagery.geojson", function(error, imagery) {
@@ -102,7 +102,7 @@ d3.json("imagery.geojson", function(error, imagery) {
             }
             if (d.properties.type === 'wms' && !(d.properties.available_projections && d.properties.available_projections.indexOf('EPSG:3857') < 0)) {
                 var url = d.properties.url.replace(/{.*?}/g, '');
-                var layers = url.match(/(&|\?)layers=(.*?)(&|$)/i)[2];
+                var layers = decodeURIComponent(url.match(/(&|\?)layers=(.*?)(&|$)/i)[2]);
                 var styles = (url.match(/(&|\?)styles=(.*?)(&|$)/i) || [])[2] || '';
                 var format = url.match(/(&|\?)format=(.*?)(&|$)/i)[2];
                 var transparent = (url.match(/(&|\?)transparent=(.*?)(&|$)/i) || [])[2] || true;
